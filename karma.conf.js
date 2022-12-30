@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/update-jal'),
+      dir: require('path').join(__dirname, './coverage/update-material-jalali-moment-adapter'),
       subdir: '.',
       reporters: [
         { type: 'html' },
